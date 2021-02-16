@@ -1,3 +1,0 @@
-Rename com subpackages and main class
-
-Edit mods.toml, main class, Creative Tab in ItemBase class, Creative Tab in BlockItemBase class, the name of the main class, Item subgroups, the mod name subpackage in data.
