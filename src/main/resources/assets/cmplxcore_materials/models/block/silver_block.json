@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "cmplxcore_materials:blocks/silver_block"
+   }
+}

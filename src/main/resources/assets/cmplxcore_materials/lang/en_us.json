@@ -1,0 +1,319 @@
+{
+	
+	//Items
+	
+    "item.cmplxcore_materials.aluminum_dust": "Aluminum Dust",
+    
+    "item.cmplxcore_materials.aluminum_ingot": "Aluminum Ingot",
+    
+    "item.cmplxcore_materials.aluminum_nugget": "Aluminum Nugget",
+    
+    "item.cmplxcore_materials.aluminum_ore_chunk": "Aluminum Ore Chunk",
+    
+    "item.cmplxcore_materials.brass_dust": "Brass Dust",
+    
+    "item.cmplxcore_materials.brass_ingot": "Brass Ingot",
+    
+    "item.cmplxcore_materials.brass_nugget": "Brass Nugget",
+    
+    "item.cmplxcore_materials.bronze_dust": "Bronze Dust",
+    
+    "item.cmplxcore_materials.bronze_ingot": "Bronze Ingot",
+    
+    "item.cmplxcore_materials.bronze_nugget": "Bronze Nugget",
+    
+    "item.cmplxcore_materials.carbon_dust": "Carbon Dust",
+    
+    "item.cmplxcore_materials.cinnabar_ore_chunk": "Cinnabar Ore Chunk",
+    
+    "item.cmplxcore_materials.coal_ore_chunk": "Coal Ore Chunk",
+    
+    "item.cmplxcore_materials.cobalt_dust": "Cobalt Dust",
+    
+    "item.cmplxcore_materials.cobalt_ingot": "Cobalt Ingot",
+    
+    "item.cmplxcore_materials.cobalt_nugget": "Cobalt Nugget",
+    
+    "item.cmplxcore_materials.cobalt_ore_chunk": "Cobalt Ore Chunk",
+    
+    "item.cmplxcore_materials.copper_dust": "Copper Dust",
+    
+    "item.cmplxcore_materials.copper_ingot": "Copper Ingot",
+    
+    "item.cmplxcore_materials.copper_nugget": "Copper Nugget",
+    
+    "item.cmplxcore_materials.copper_ore_chunk": "Copper Ore Chunk",
+    
+    "item.cmplxcore_materials.diamond_crushbowl": "Diamond Mortar and Pestle",
+    
+    "item.cmplxcore_materials.diamond_dust": "Diamond Dust",
+    
+    "item.cmplxcore_materials.diamond_hammer": "Diamond Hammer",
+    
+    "item.cmplxcore_materials.diamond_nugget": "Diamond Chip",
+    
+    "item.cmplxcore_materials.diamond_ore_chunk": "Diamond Ore Chunk",
+    
+    "item.cmplxcore_materials.diamond_pestle": "Diamond Pestle",
+    
+    "item.cmplxcore_materials.diamond_rod": "Diamond Rod",
+    
+    "item.cmplxcore_materials.emerald_dust": "Emerald Dust",
+    
+    "item.cmplxcore_materials.emerald_nugget": "Emerald Chip",
+    
+    "item.cmplxcore_materials.emerald_ore_chunk": "Emerald Ore Chunk",
+    
+    "item.cmplxcore_materials.gold_crushbowl": "Golden Mortar and Pestle",
+    
+    "item.cmplxcore_materials.gold_dust": "Gold Dust",
+    
+    "item.cmplxcore_materials.gold_hammer": "Golden Hammer",
+    
+    "item.cmplxcore_materials.gold_ore_chunk": "Gold Ore Chunk",
+    
+    "item.cmplxcore_materials.graphite_chunk": "Graphite Chunk",
+    
+    "item.cmplxcore_materials.graphite_crushbowl": "Graphite Mortar and Pestle",
+    
+    "item.cmplxcore_materials.graphite_hammer": "Graphite Hammer",
+    
+    "item.cmplxcore_materials.graphite_ingot": "Graphite Ingot",
+    
+    "item.cmplxcore_materials.graphite_pestle": "Graphite Pestle",
+    
+    "item.cmplxcore_materials.graphite_rod": "Graphite Rod",
+    
+    "item.cmplxcore_materials.iridium_dust": "Iridium Dust",
+    
+    "item.cmplxcore_materials.iridium_ingot": "Iridium Ingot",
+    
+    "item.cmplxcore_materials.iridium_nugget": "Iridium Nugget",
+    
+    "item.cmplxcore_materials.iridium_ore_chunk": "Iridium Ore Chunk",
+    
+    "item.cmplxcore_materials.iron_crushbowl": "Iron Mortar and Pestle",
+    
+    "item.cmplxcore_materials.iron_dust": "Iron Dust",
+    
+    "item.cmplxcore_materials.iron_hammer": "Iron Hammer",
+    
+    "item.cmplxcore_materials.iron_ore_chunk": "Iron Ore Chunk",
+    
+    "item.cmplxcore_materials.iron_pestle": "Iron Pestle",
+    
+    "item.cmplxcore_materials.iron_rod": "Iron Rod",
+    
+    "item.cmplxcore_materials.lapis_ore_chunk": "Iron Ore Chunk",
+    
+    "item.cmplxcore_materials.lead_dust": "Lead Dust",
+    
+    "item.cmplxcore_materials.lead_ingot": "Lead Ingot",
+    
+    "item.cmplxcore_materials.lead_nugget": "Lead Nugget",
+    
+    "item.cmplxcore_materials.lead_ore_chunk": "Lead Ore Chunk",
+    
+    "item.cmplxcore_materials.mercury": "Mercury",
+    
+    "item.cmplxcore_materials.netherrock": "Netherrock",
+    
+    "item.cmplxcore_materials.nickel_dust": "Nickel Dust",
+    
+    "item.cmplxcore_materials.nickel_ingot": "Nickel Ingot",
+    
+    "item.cmplxcore_materials.nickel_nugget": "Nickel Nugget",
+    
+    "item.cmplxcore_materials.nickel_ore_chunk": "Nickel Ore Chunk",
+    
+    "item.cmplxcore_materials.niter": "Niter",
+    
+    "item.cmplxcore_materials.niter_ore_chunk": "Potassium Ore Chunk",
+    
+    "item.cmplxcore_materials.obsidian_dust": "Obsidian Dust",
+    
+    "item.cmplxcore_materials.obsidian_flakes": "Obsidian Flakes",
+    
+    "item.cmplxcore_materials.obsidian_ingot": "Obsidian Ingot",
+    
+    "item.cmplxcore_materials.obsidian_nugget": "Obsidian Nugget",
+    
+    "item.cmplxcore_materials.osmium_dust": "Osmium Dust",
+    
+    "item.cmplxcore_materials.osmium_ingot": "Osmium Ingot",
+    
+    "item.cmplxcore_materials.osmium_nugget": "Osmium Nugget",
+    
+    "item.cmplxcore_materials.osmium_ore_chunk": "Osmium Ore Chunk",
+    
+    "item.cmplxcore_materials.pure_silicon_flakes": "Pure Silicon Flakes",
+    
+    "item.cmplxcore_materials.pure_silicon_ingot": "Pure Silicon Ingot",
+    
+    "item.cmplxcore_materials.pure_silicon_mesh": "Pure Silicon Mesh",
+    
+    "item.cmplxcore_materials.pure_silicon_nugget": "Pure Silicon Chunk",
+    
+    "item.cmplxcore_materials.quartz_dust": "Nether Quartz Dust",
+    
+    "item.cmplxcore_materials.quartz_ore_chunk": "Nether Quartz Ore Chunk",
+    
+    "item.cmplxcore_materials.quartz_shard": "Quartz Shard",
+    
+    "item.cmplxcore_materials.raw_silicon_flakes": "Raw Silicon Flakes",
+    
+    "item.cmplxcore_materials.raw_silicon_ingot": "Raw Silicon Ingot",
+    
+    "item.cmplxcore_materials.raw_silicon_mesh": "Raw Silicon Mesh",
+    
+    "item.cmplxcore_materials.raw_silicon_nugget": "Raw Silicon Chunk",
+    
+    "item.cmplxcore_materials.redstone_ore_chunk": "Redstone Ore Chunk",
+    
+    "item.cmplxcore_materials.rock": "Rock",
+    
+    "item.cmplxcore_materials.silver_dust": "Silver Dust",
+    
+    "item.cmplxcore_materials.silver_ingot": "Silver Ingot",
+    
+    "item.cmplxcore_materials.silver_nugget": "Silver Nugget",
+    
+    "item.cmplxcore_materials.silver_ore_chunk": "Silver Ore Chunk",
+    
+    "item.cmplxcore_materials.small_fine_sand": "Small Pile of Fine Sand",
+    
+    "item.cmplxcore_materials.small_sand": "Small Pile of Sand",
+    
+    "item.cmplxcore_materials.steel_dust": "Steel Dust",
+    
+    "item.cmplxcore_materials.steel_ingot": "Steel Ingot",
+    
+    "item.cmplxcore_materials.steel_nugget": "Steel Nugget",
+    
+    "item.cmplxcore_materials.steel_rod": "Steel Rod",
+    
+    "item.cmplxcore_materials.stone_crushbowl": "Stone Mortar and Pestle",
+    
+    "item.cmplxcore_materials.stone_hammer": "Stone Hammer",
+    
+    "item.cmplxcore_materials.stone_pestle": "Stone Pestle",
+    
+    "item.cmplxcore_materials.stone_rod": "Stone Rod",
+    
+    "item.cmplxcore_materials.sulfur_dust": "Sulfur Dust",
+    
+    "item.cmplxcore_materials.sulfur_ore_chunk": "Sulfur Ore Chunk",
+    
+    "item.cmplxcore_materials.tin_dust": "Tin Dust",
+    
+    "item.cmplxcore_materials.tin_ingot": "Tin Ingot",
+    
+    "item.cmplxcore_materials.tin_nugget": "Tin Nugget",
+    
+    "item.cmplxcore_materials.tin_ore_chunk": "Tin Ore Chunk",
+    
+    "item.cmplxcore_materials.titanium_dust": "Titanium Dust",
+    
+    "item.cmplxcore_materials.titanium_ingot": "Titanium Ingot",
+    
+    "item.cmplxcore_materials.titanium_nugget": "Titanium Nugget",
+    
+    "item.cmplxcore_materials.titanium_ore_chunk": "Titanium Ore Chunk",
+    
+    "item.cmplxcore_materials.wood_crushbowl": "Wooden Mortar and Pestle",
+    
+    "item.cmplxcore_materials.wood_hammer": "Wooden Hammer",
+    
+    "item.cmplxcore_materials.zinc_dust": "Zinc Dust",
+    
+    "item.cmplxcore_materials.zinc_ingot": "Zinc Ingot",
+    
+    "item.cmplxcore_materials.zinc_nugget": "Zinc Nugget",
+    
+    "item.cmplxcore_materials.zinc_ore_chunk": "Zinc Ore Chunk",
+	
+	
+	
+	//Blocks
+	
+	"block.cmplxcore_materials.aluminum_block": "Aluminum Block",
+	
+	"block.cmplxcore_materials.aluminum_ore": "Aluminum Ore",
+	
+	"block.cmplxcore_materials.brass_block": "Brass Block",
+	
+	"block.cmplxcore_materials.bronze_block": "Bronze Block",
+	
+	"block.cmplxcore_materials.cinnabar_ore": "Cinnabar Ore",
+	
+	"block.cmplxcore_materials.cobalt_block": "Cobalt Block",
+	
+	"block.cmplxcore_materials.cobalt_ore": "Cobalt Ore",
+	
+	"block.cmplxcore_materials.copper_block": "Copper Block",
+	
+	"block.cmplxcore_materials.copper_ore": "Copper Ore",
+	
+	"block.cmplxcore_materials.fine_sand": "Fine Sand",
+	
+	"block.cmplxcore_materials.graphite_block": "Graphite Block",
+	
+	"block.cmplxcore_materials.gunpowder_block": "Gunpowder Block",
+	
+	"block.cmplxcore_materials.iridium_block": "Iridium Block",
+	
+	"block.cmplxcore_materials.iridium_ore": "Iridium Ore",
+	
+	"block.cmplxcore_materials.lead_block": "Lead Block",
+	
+	"block.cmplxcore_materials.lead_ore": "Lead Ore",
+	
+	"block.cmplxcore_materials.nickel_block": "Nickel Block",
+	
+	"block.cmplxcore_materials.nickel_ore": "Nickel Ore",
+	
+	"block.cmplxcore_materials.niter_block": "Niter Block",
+	
+	"block.cmplxcore_materials.niter_ore": "Potassium Ore",
+	
+	"block.cmplxcore_materials.osmium_block": "Osmium Block",
+	
+	"block.cmplxcore_materials.osmium_ore": "Osmium Ore",
+	
+	"block.cmplxcore_materials.pure_silicon_block": "Pure Silicon Block",
+	
+	"block.cmplxcore_materials.raw_silicon_block": "Raw Silicon Block",
+	
+	"block.cmplxcore_materials.silver_block": "Silver Block",
+	
+	"block.cmplxcore_materials.silver_ore": "Silver Ore",
+	
+	"block.cmplxcore_materials.steel_block": "Steel Block",
+	
+	"block.cmplxcore_materials.sulfur_block": "Sulfur Block",
+	
+	"block.cmplxcore_materials.sulfur_ore": "Sulfur Ore",
+	
+	"block.cmplxcore_materials.tin_block": "Tin Block",
+	
+	"block.cmplxcore_materials.tin_ore": "Tin Ore",
+	
+	"block.cmplxcore_materials.titanium_block": "Titanium Block",
+	
+	"block.cmplxcore_materials.titanium_ore": "Titanium Ore",
+	
+	"block.cmplxcore_materials.zinc_block": "Zinc Block",
+	
+	"block.cmplxcore_materials.zinc_ore": "Zinc Ore",
+	
+	
+	
+	//Tabs
+	
+	"itemGroup.cmplxcore_materials": "CMPLX Core: Materials"
+	
+	
+	
+	
+	
+}

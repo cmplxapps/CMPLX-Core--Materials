@@ -1,0 +1,30 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="cmplxcore_materials" #mandatory
+version="dev-0.1.0" #mandatory
+displayName="CMPLX Core: Materials" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="https://cmplxapps.github.io/CMPLX-Core-Materials" #optional
+logoFile="examplemod.png" #optional
+credits="CMPLX, the Forge guys, and you, the community." #optional
+authors="CMPLX" #optional
+#mandatory
+description='''
+Some base materials for my other mods.
+'''
+
+[[dependencies.cmplxcore_materials]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cmplxcore_materials]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15, 1.16.5]"
+    ordering="NONE"
+    side="BOTH"

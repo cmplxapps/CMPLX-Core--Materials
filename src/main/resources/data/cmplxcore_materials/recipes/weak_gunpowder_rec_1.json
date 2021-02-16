@@ -1,0 +1,24 @@
+{ 
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients": [
+
+		{
+			"item": "cmplxcore_materials:carbon_dust"
+		},
+
+		{
+			"item": "cmplxcore_materials:sulfur_dust"
+		},
+
+		{
+			"item": "cmplxcore_materials:niter"
+		}
+
+	],
+
+	"result": {
+		"item": "cmplxcore_materials:weak_gunpowder",
+		"count": 3
+	}
+}
