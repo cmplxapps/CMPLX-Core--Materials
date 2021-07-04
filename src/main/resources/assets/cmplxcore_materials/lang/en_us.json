@@ -220,6 +220,8 @@
     
     "item.cmplxcore_materials.titanium_ore_chunk": "Titanium Ore Chunk",
     
+    "item.cmplxcore_materials.weak_gunpowder": "Weak Gunpowder",
+    
     "item.cmplxcore_materials.wood_crushbowl": "Wooden Mortar and Pestle",
     
     "item.cmplxcore_materials.wood_hammer": "Wooden Hammer",
@@ -301,6 +303,8 @@
 	"block.cmplxcore_materials.titanium_block": "Titanium Block",
 	
 	"block.cmplxcore_materials.titanium_ore": "Titanium Ore",
+	
+	"block.cmplxcore_materials.weak_gunpowder_block": "Weak Gunpowder Block",
 	
 	"block.cmplxcore_materials.zinc_block": "Zinc Block",
 	
