@@ -1,18 +1,26 @@
 package net.cmplx.cmplxcore_materials.util;
 
 import net.cmplx.cmplxcore_materials.CMPLXCoreMaterials;
-import net.cmplx.cmplxcore_materials.blocks.*;
+import net.cmplx.cmplxcore_materials.blocks.BlockClassModel;
+import net.cmplx.cmplxcore_materials.blocks.BlockItemBase;
+import net.cmplx.cmplxcore_materials.blocks.GemBlockGold;
+import net.cmplx.cmplxcore_materials.blocks.GemOreGold;
+import net.cmplx.cmplxcore_materials.blocks.MetalBlockCoal;
+import net.cmplx.cmplxcore_materials.blocks.MetalBlockGold;
+import net.cmplx.cmplxcore_materials.blocks.MetalBlockIron;
+import net.cmplx.cmplxcore_materials.blocks.MetalOreGold;
+import net.cmplx.cmplxcore_materials.blocks.MetalOreIron;
+import net.cmplx.cmplxcore_materials.blocks.SandBlockCoal;
 import net.cmplx.cmplxcore_materials.items.FuelBase;
 import net.cmplx.cmplxcore_materials.items.ItemBase;
-import net.cmplx.cmplxcore_materials.items.CrushbowlBase.*;
-import net.cmplx.cmplxcore_materials.items.HammerBase.DiamondHammer;
-import net.cmplx.cmplxcore_materials.items.HammerBase.GoldHammer;
-import net.cmplx.cmplxcore_materials.items.HammerBase.GraphiteHammer;
-import net.cmplx.cmplxcore_materials.items.HammerBase.IronHammer;
-import net.cmplx.cmplxcore_materials.items.HammerBase.StoneHammer;
-import net.cmplx.cmplxcore_materials.items.HammerBase.WoodHammer;
+import net.cmplx.cmplxcore_materials.tooltypes.CrushbowlItem;
+import net.cmplx.cmplxcore_materials.tiers.ModTiers;
+import net.cmplx.cmplxcore_materials.tooltypes.HammerItem;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemTier;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;
@@ -115,7 +123,7 @@ public class RegistryHandler {
 	
 	public static final RegistryObject<Block> STEEL_BLOCK = BLOCKS.register("steel_block", MetalBlockIron::new);
 	
-	public static final RegistryObject<Block> SULFUR_BLOCK = BLOCKS.register("sulfur_block", MetalBlockIron::new);
+	public static final RegistryObject<Block> SULFUR_BLOCK = BLOCKS.register("sulfur_block", MetalOreIron::new);
 	
 	public static final RegistryObject<Block> SULFUR_ORE = BLOCKS.register("sulfur_ore", MetalOreIron::new);
 	
@@ -132,6 +140,13 @@ public class RegistryHandler {
 	public static final RegistryObject<Block> ZINC_ORE = BLOCKS.register("zinc_ore", MetalOreIron::new);
 	
 	public static final RegistryObject<Block> WEAK_GUNPOWDER_BLOCK = BLOCKS.register("weak_gunpowder_block", SandBlockCoal::new);
+	
+	public static final RegistryObject<Block> PURE_GLASS_BLOCK = BLOCKS.register("pure_glass", () -> new BlockClassModel (Block.Properties
+			.create(Material.GLASS)
+			.hardnessAndResistance(0.3f, 0.3f)
+			.sound(SoundType.GLASS)
+			.harvestLevel(0)
+		));
 	
 	//    Items    ----    //public static final RegistryObject<Item> NAME = ITEM.register("name", PropertyClass::new);
 	 
@@ -323,29 +338,41 @@ public class RegistryHandler {
 	 
 	public static final RegistryObject<Item> SMALL_SAND = ITEMS.register("small_sand", ItemBase::new);
 	
-	public static final RegistryObject<Item> WOOD_CRUSHBOWL = ITEMS.register("wood_crushbowl", WoodCrushbowl::new);
+	public static final RegistryObject<Item> WOOD_CRUSHBOWL = ITEMS.register("wood_crushbowl", () -> new CrushbowlItem (
+			ItemTier.WOOD, 0, 0.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> GRAPHITE_CRUSHBOWL = ITEMS.register("graphite_crushbowl", GraphiteCrushbowl::new);
+	public static final RegistryObject<Item> GRAPHITE_CRUSHBOWL = ITEMS.register("graphite_crushbowl", () -> new CrushbowlItem (
+			ModTiers.GRAPHITE, -2, 0.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> STONE_CRUSHBOWL = ITEMS.register("stone_crushbowl", StoneCrushbowl::new);
+	public static final RegistryObject<Item> STONE_CRUSHBOWL = ITEMS.register("stone_crushbowl", () -> new CrushbowlItem (
+			ItemTier.STONE, -1, 0.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> IRON_CRUSHBOWL = ITEMS.register("iron_crushbowl", IronCrushbowl::new);
+	public static final RegistryObject<Item> IRON_CRUSHBOWL = ITEMS.register("iron_crushbowl", () -> new CrushbowlItem (
+			ItemTier.IRON, -2, 0.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> GOLD_CRUSHBOWL = ITEMS.register("gold_crushbowl", GoldCrushbowl::new);
+	public static final RegistryObject<Item> GOLD_CRUSHBOWL = ITEMS.register("gold_crushbowl", () -> new CrushbowlItem (
+			ItemTier.GOLD, 0, 0.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> DIAMOND_CRUSHBOWL = ITEMS.register("diamond_crushbowl", DiamondCrushbowl::new);
+	public static final RegistryObject<Item> DIAMOND_CRUSHBOWL = ITEMS.register("diamond_crushbowl", () -> new CrushbowlItem (
+			ItemTier.DIAMOND, -3, 0.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> WOOD_HAMMER = ITEMS.register("wood_hammer", WoodHammer::new);
+	public static final RegistryObject<Item> WOOD_HAMMER = ITEMS.register("wood_hammer", () -> new HammerItem (
+			ItemTier.WOOD, 4, -3.2F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> GRAPHITE_HAMMER = ITEMS.register("graphite_hammer", GraphiteHammer::new);
+	public static final RegistryObject<Item> GRAPHITE_HAMMER = ITEMS.register("graphite_hammer", () -> new HammerItem (
+			ModTiers.GRAPHITE, 4, -3.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> STONE_HAMMER = ITEMS.register("stone_hammer", StoneHammer::new);
+	public static final RegistryObject<Item> STONE_HAMMER = ITEMS.register("stone_hammer", () -> new HammerItem (
+			ItemTier.STONE, 4, -3.2F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer", IronHammer::new);
+	public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer", () -> new HammerItem (
+			ItemTier.IRON, 4, -3.1F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
-	public static final RegistryObject<Item> GOLD_HAMMER = ITEMS.register("gold_hammer", GoldHammer::new);
+	public static final RegistryObject<Item> GOLD_HAMMER = ITEMS.register("gold_hammer", () -> new HammerItem (
+			ItemTier.GOLD, 4, -3.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	 
-	public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer", DiamondHammer::new);
+	public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer", () -> new HammerItem (
+			ItemTier.DIAMOND, 4, -3.0F, (new Item.Properties()).group(CMPLXCoreMaterials.CMPLXCORE_MATERIALS_TAB)) );
 	
 	public static final RegistryObject<Item> WEAK_GUNPOWDER = ITEMS.register("weak_gunpowder", () -> new FuelBase(200));
 	
@@ -420,5 +447,7 @@ public class RegistryHandler {
 	public static final RegistryObject<Item> ZINC_ORE_ITEM = ITEMS.register("zinc_ore", () -> new BlockItemBase(ZINC_ORE.get()));
 	
 	public static final RegistryObject<Item> WEAK_GUNPOWDER_BLOCK_ITEM = ITEMS.register("weak_gunpowder_block", () -> new BlockItemBase(WEAK_GUNPOWDER_BLOCK.get()));
+	
+	public static final RegistryObject<Item> PURE_GLASS_BLOCK_ITEM = ITEMS.register("pure_glass", () -> new BlockItemBase(PURE_GLASS_BLOCK.get()));
 	
 }

@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "cmplxcore_materials:sulfur",
+              "name": "cmplxcore_materials:sulfur_dust",
               "functions": [
                 {
                   "function": "minecraft:set_count",

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "cmplxcore_materials:graphite_ingot"
+		}
+	],
+	"result": {
+		"item": "minecraft:graphite_chunk",
+		"count": 9
+	}
+}

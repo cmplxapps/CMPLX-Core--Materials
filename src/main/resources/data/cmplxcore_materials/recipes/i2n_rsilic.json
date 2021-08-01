@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "cmplxcore_materials:raw_silicon_ingot"
+		}
+	],
+	"result": {
+		"item": "minecraft:raw_silicon_nugget",
+		"count": 9
+	}
+}

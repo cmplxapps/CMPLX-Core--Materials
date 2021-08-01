@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "cmplxcore_materials:osmium_ingot"
+		}
+	],
+	"result": {
+		"item": "minecraft:osmium_nugget",
+		"count": 9
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "cmplxcore_materials:obsidian_ingot"
+		}
+	],
+	"result": {
+		"item": "minecraft:obsidian_nugget",
+		"count": 9
+	}
+}

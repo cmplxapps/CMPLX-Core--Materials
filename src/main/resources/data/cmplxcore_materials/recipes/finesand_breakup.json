@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "cmplxcore_materials:fine_sand"
+		}
+	],
+	"result": {
+		"item": "minecraft:small_fine_sand",
+		"count": 4
+	}
+}
